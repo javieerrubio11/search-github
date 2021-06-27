@@ -9,7 +9,7 @@
     ></v-data-table>
 
     <v-card v-if="items.length < 1">
-      <v-card-text>No items in the search, please provide some text in the input above</v-card-text>
+      <v-card-text>No results found, please provide some text in the input above</v-card-text>
     </v-card>
   </div>
 </template>

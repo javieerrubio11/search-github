@@ -3,7 +3,7 @@
     <div>
       <Search />
     </div>
-    <div>
+    <div class="pt-5">
       <Table />
     </div>
   </v-container>

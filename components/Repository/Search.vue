@@ -1,21 +1,18 @@
 <template>
-  <v-card
-    color="orange lighten-2"
-    dark
-  >
-    <v-card-title class="text-h5 red lighten-3">
-      Search for Public Repositories in Github
+  <v-card>
+    <v-card-title class="text-h5 primary">
+      Search for public repositories in Github
     </v-card-title>
     <v-card-text>
       <v-autocomplete
         v-model="model"
         :search-input.sync="search"
-        color="white"
         hide-no-data
         hide-selected
         label="Public repositories"
         placeholder="Start typing to Search"
         prepend-icon="mdi-database-search"
+        class="mt-4"
       ></v-autocomplete>
     </v-card-text>
   </v-card>
