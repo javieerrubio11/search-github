@@ -4,7 +4,7 @@
       v-if="items.length > 0"
       :headers="headers"
       :items="items"
-      :items-per-page="5"
+      :items-per-page="10"
       class="elevation-1"
     ></v-data-table>
 
@@ -19,7 +19,8 @@
     data: () => ({
       headers: [
         { text: 'Name', value: 'name' },
-        { text: 'Url', value: 'url' }
+        { text: 'Language', value: 'language' },
+        { text: 'Description', value: 'description' }
       ]
     }),
 

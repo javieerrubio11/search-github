@@ -1,6 +1,6 @@
 <template>
   <v-card>
-    <v-card-title class="text-h5 primary">
+    <v-card-title class="text-h5 primary lighten-2">
       Search for public repositories in Github
     </v-card-title>
     <v-card-text>

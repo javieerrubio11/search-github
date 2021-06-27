@@ -3,6 +3,8 @@
     :clipped-left="clipped"
     fixed
     app
+    color="primary"
+    dark
   >
     <v-toolbar-title v-text="title" />
   </v-app-bar>
@@ -13,7 +15,7 @@ export default {
   data () {
     return {
       clipped: false,
-      title: 'Vuetify.js'
+      title: 'Search Github'
     }
   }
 }
