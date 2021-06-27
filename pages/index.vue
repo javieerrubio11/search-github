@@ -1,5 +1,22 @@
 <template>
-  <v-card class="logo py-4 d-flex justify-center flex-wrap">
-    <NuxtLogo />
-  </v-card>
+  <v-container>
+    <div>
+      <Search />
+    </div>
+    <div>
+      <Table />
+    </div>
+  </v-container>
 </template>
+
+<script>
+import Search from '~/components/Repository/Search.vue'
+import Table from '~/components/Repository/Table.vue'
+
+export default {
+  components: {
+    Search,
+    Table
+  }
+}
+</script>

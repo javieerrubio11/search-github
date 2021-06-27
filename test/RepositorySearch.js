@@ -1,9 +1,9 @@
 import { mount } from '@vue/test-utils'
-import NuxtLogo from '@/components/NuxtLogo.vue'
+import Search from '@/components/Repository/Search.vue'
 
-describe('NuxtLogo', () => {
+describe('Search', () => {
   test('is a Vue instance', () => {
-    const wrapper = mount(NuxtLogo)
+    const wrapper = mount(Search)
     expect(wrapper.vm).toBeTruthy()
   })
 })

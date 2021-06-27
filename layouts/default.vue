@@ -21,12 +21,6 @@ export default {
     Header,
     Footer,
     FabToTop
-  },
-
-  data() {
-    return {
-      fixed: false
-    }
   }
 }
 </script>
