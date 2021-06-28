@@ -10,8 +10,8 @@
 </template>
 
 <script>
-import Search from '~/components/Repository/Search.vue'
-import Table from '~/components/Repository/Table.vue'
+import Search from '~/components/repository/Search.vue'
+import Table from '~/components/repository/Table.vue'
 
 export default {
   components: {

@@ -1,9 +1,9 @@
 import { mount } from '@vue/test-utils'
-import Search from '@/components/Repository/Search.vue'
+import FabToTop from '@/components/base/FabToTop.vue'
 
-describe('Search', () => {
+describe('FabToTop', () => {
   test('is a Vue instance', () => {
-    const wrapper = mount(Search)
+    const wrapper = mount(FabToTop)
     expect(wrapper.vm).toBeTruthy()
   })
 })
