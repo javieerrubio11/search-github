@@ -1,6 +1,6 @@
 <template>
-  <v-card>
-    <v-card-title class="text-h5 primary lighten-2">
+  <v-card class="card-search">
+    <v-card-title class="text-h6 primary lighten-2">
       Search for public repositories in Github
     </v-card-title>
     <v-card-text>
@@ -56,3 +56,18 @@
     }
   }
 </script>
+
+<style lang="scss" scoped>
+@mixin square($size, $radius: 0) {
+  width: $size;
+  height: $size;
+
+  @if $radius != 0 {
+    border-radius: $radius;
+  }
+}
+
+.card-search {
+  @include square(100%, $radius: 10px);
+}
+</style>
