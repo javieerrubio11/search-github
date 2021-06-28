@@ -20,9 +20,7 @@
 </template>
 
 <script>
-// Globals
 export default {
-  name: 'DefaultFabToTop',
   data: () => ({ fab: false }),
   methods: {
     onScroll() {

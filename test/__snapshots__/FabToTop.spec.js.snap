@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FabToTop renders properly 1`] = `
+"<v-fab-transition>
+  <v-btn title=\\"Scroll to top\\" bottom=\\"\\" color=\\"primary\\" fab=\\"\\" fixed=\\"\\" small=\\"\\" right=\\"\\" class=\\"transition-swing mb-10\\" style=\\"z-index: 6; display: none;\\">
+    <v-icon>mdi-chevron-up</v-icon>
+  </v-btn>
+</v-fab-transition>"
+`;
