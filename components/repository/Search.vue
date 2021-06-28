@@ -1,7 +1,7 @@
 <template>
   <v-card class="card-search">
     <v-card-title class="text-h6 primary lighten-2">
-      Search for public repositories in Github
+      Search repositories in Github
     </v-card-title>
     <v-card-text>
       <v-autocomplete

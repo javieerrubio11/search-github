@@ -15,7 +15,7 @@ export default {
   data () {
     return {
       clipped: false,
-      title: 'Search Github'
+      title: 'Searcher'
     }
   }
 }
